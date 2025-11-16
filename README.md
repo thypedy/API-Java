@@ -48,22 +48,24 @@ Model/DTO   → representação do domínio e troca de dados (entidades / DTOs)
 
 Pacotes principais:
 
-controller – Endpoints da API (REST Controllers)
-service e service.impl – Regras de negócio
-repository – Acesso ao banco via Spring Data JPA
-model – Entidades do domínio (User, LearningPath)
-dto – Objetos de transferência de dados (UserDTO, LearningPathDTO)
-exception – Tratamento centralizado de erros
-config – Seeds de dados iniciais (DataSeeder)
+- controller – Endpoints da API (REST Controllers)
+- service e service.impl – Regras de negócio
+- repository – Acesso ao banco via Spring Data JPA
+- model – Entidades do domínio (User, LearningPath)
+- dto – Objetos de transferência de dados (UserDTO, LearningPathDTO)
+- exception – Tratamento centralizado de erros
+- config – Seeds de dados iniciais (DataSeeder)
 
-Tecnologia	Versão (exemplo)
-Java → 17+
-Spring Boot → 3.x.x
-Spring Web → Starter
-Spring Data → JPA	Starter
-Validation (Bean Validation) → Starter
-Banco de Dados → H2 (em memória)
-Build	→ Maven
+| Tecnologia                   | Versão (exemplo) |
+| ---------------------------- | ---------------- |
+| Java                         | 17+              |
+| Spring Boot                  | 3.9.9          |
+| Spring Web                   | Starter          |
+| Spring Data JPA              | Starter          |
+| Validation (Bean Validation) | Starter          |
+| Banco de Dados               | H2 (em memória)  |
+| Build                        | Maven            |
+
 
 ## 🚀 Como Executar o Projeto
 ## 📌 Pré-requisitos
@@ -236,8 +238,8 @@ curl http://localhost:8080/api/paths
 ```
 
 Com isso, qualquer pessoa consegue:
--Instalar dependências
--Configurar o banco
--Rodar a aplicação
--Testar os endpoints rapidamente
--Validar o comportamento dos CRUDs
+- Instalar dependências
+- Configurar o banco
+- Rodar a aplicação
+- Testar os endpoints rapidamente
+- Validar o comportamento dos CRUDs

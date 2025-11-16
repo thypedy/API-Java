@@ -82,8 +82,26 @@ ou, usando o wrapper:
 A API iniciará em:
 http://localhost:8080
 
-🗄 Configuração do Banco de Dados (H2)
--O projeto utiliza H2 em memória (não precisa instalar nada).
+## 🗄 Configuração do Banco de Dados (H2)
+
+A aplicação utiliza o banco H2 em memória, já configurado no arquivo:
+
+📌 src/main/resources/application.properties
+
+Configuração aplicada:
+# Configuração do Banco H2 em Memória
+spring.datasource.url=jdbc:h2:mem:upskill_db
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+
+# H2 Console
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+# Configuração JPA/Hibernate
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
 
 🔍 Acessar o Console H2
 URL do console H2:

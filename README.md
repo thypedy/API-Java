@@ -233,6 +233,7 @@ curl -X POST http://localhost:8080/api/paths \
 Listar trilhas:
 ```text
 curl http://localhost:8080/api/paths
+```
 
 Com isso, qualquer pessoa consegue:
 -Instalar dependências
@@ -240,4 +241,3 @@ Com isso, qualquer pessoa consegue:
 -Rodar a aplicação
 -Testar os endpoints rapidamente
 -Validar o comportamento dos CRUDs
-```

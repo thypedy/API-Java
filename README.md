@@ -1,10 +1,5 @@
 # 🌿 MindWork – Plataforma Inteligente de Upskilling Emocional para o Futuro do Trabalho
 
-## Integrantes do grupo:
-Oliver Kanai Trindade - rm554954 
-Pedro Gutierre Cardoso de Oliveira - rm555445 
-William Weile Feng - rm555132
-
 ## 🌐 API MindWork
 MindWork é uma plataforma que utiliza **IA Emocional, análise de dados e trilhas de desenvolvimento humano** para promover o bem-estar no trabalho, fortalecer vínculos entre equipes e incentivar uma cultura organizacional mais saudável, ética e sustentável.
 

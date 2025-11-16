@@ -206,6 +206,7 @@ Exemplos de validações aplicadas:
 ## 🔵 Testar com curl (terminal)
 
 Criar usuário:
+```text
 curl -X POST http://localhost:8080/api/users \
   -H "Content-Type: application/json" \
   -d '{
@@ -213,8 +214,10 @@ curl -X POST http://localhost:8080/api/users \
     "email": "joao@future.com",
     "profissaoAtual": "Desenvolvedor"
   }'
+```
 
 Listar usuários:
+```text
 curl http://localhost:8080/api/users
 
 Criar trilha:
@@ -225,8 +228,10 @@ curl -X POST http://localhost:8080/api/paths \
     "descricao": "Trilha prática para gestão de estresse e atenção plena.",
     "competenciasFuturo": "Mindfulness, Autoconsciência, Autocuidado"
   }'
+```
 
 Listar trilhas:
+```text
 curl http://localhost:8080/api/paths
 
 Com isso, qualquer pessoa consegue:
@@ -235,3 +240,4 @@ Com isso, qualquer pessoa consegue:
 -Rodar a aplicação
 -Testar os endpoints rapidamente
 -Validar o comportamento dos CRUDs
+```
